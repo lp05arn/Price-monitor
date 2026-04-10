@@ -1,0 +1,19 @@
+# URL del producto que quieres monitorizar
+# Ejemplo: cualquier producto de PCComponentes, Amazon, MediaMarkt...
+product_url: "https://www.pccomponentes.com/tarjeta-grafica-asus-prime-geforce-rtx-5060-oc-edition-8gb-gddr7-reflex-2-rtx-ai-dlss4"
+
+# Si el precio baja de este número, se manda el email
+price_threshold: 310.00
+
+# Cada cuántas horas se comprueba el precio
+check_interval_hours: 0,1
+
+# Configuración del email que ENVÍA la alerta (el tuyo o uno de prueba)
+sender_email: "javierruiznavarrete10@gmail.com"
+sender_password: "qlxx jmij vpxb rhda"  # OJO: no es tu contraseña normal, ver instrucciones abajo
+
+# Email que RECIBE la alerta (puede ser el mismo u otro)
+receiver_email: "javierruiznavarrete10@gmail.com"
+
+# Nombre del producto (para que el email sea descriptivo)
+product_name: "AMD Ryzen 5 7600X"
